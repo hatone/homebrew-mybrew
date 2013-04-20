@@ -2,8 +2,8 @@ require 'formula'
 
 class Postgresql < Formula
   homepage 'http://www.postgresql.org/'
-  url 'http://ftp.postgresql.org/pub/source/v9.2.4/postgresql-9.2.4.tar.bz2'
-  sha1 '75b53c884cb10ed9404747b51677358f12082152'
+  url 'http://ftp.postgresql.org/pub/source/v8.4.17/postgresql-8.4.17.tar.bz2'
+  sha1 '5cffae539198764301c0b2a36ae63fe1'
 
   depends_on 'readline'
   depends_on 'libxml2' if MacOS.version == :leopard # Leopard libxml is too old
